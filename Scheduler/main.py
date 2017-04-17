@@ -1,5 +1,5 @@
 import sys
-from schedulemanager import ScheduleManager
+from schedule_manager import ScheduleManager
 
 
 def main():
