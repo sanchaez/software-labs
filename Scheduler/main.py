@@ -1,9 +1,8 @@
 import sys
-from schedule_manager import ScheduleManager
+from model import TaskList
 
 
 def main():
-    scheduler = ScheduleManager()
-    scheduler.run()
+    pass
 
 main()
