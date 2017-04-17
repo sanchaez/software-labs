@@ -1,9 +1,9 @@
 import sys
-from controller import Controller
+from schedulemanager import ScheduleManager
 
 
 def main():
-    scheduler = Controller()
+    scheduler = ScheduleManager()
     scheduler.run()
 
 main()

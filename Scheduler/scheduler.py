@@ -11,7 +11,7 @@ class Event:
         self.event_text = ""
 
 
-class Model:
+class Scheduler:
 
     def __init__(self):
         self.__event_list = []

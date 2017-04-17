@@ -1,12 +1,12 @@
-from model import Model
-from view import View
+from scheduler import Scheduler
+from schedule_manager import Interface
 
 
-class Controller:
+class ScheduleManager:
 
     def __init__(self):
-        self.__interface = View()
-        self.__scheduler = Model()
+        self.__interface = Interface()
+        self.__scheduler = Scheduler()
 
     def run(self):
         pass
