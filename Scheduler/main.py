@@ -1,8 +1,12 @@
-import sys
-from model import TaskList
+from controller import Controller
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-def main():
-    pass
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
 
-main()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
