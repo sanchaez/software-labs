@@ -66,6 +66,9 @@
           <property name="text">
            <string>Task List</string>
           </property>
+          <property name="buddy">
+           <cstring>listView</cstring>
+          </property>
          </widget>
         </item>
         <item>
@@ -113,6 +116,9 @@
           </property>
           <property name="text">
            <string>Details</string>
+          </property>
+          <property name="buddy">
+           <cstring>plainTextEdit</cstring>
           </property>
          </widget>
         </item>
@@ -169,8 +175,9 @@
     <property name="title">
      <string>Edit</string>
     </property>
-    <addaction name="actionAdd_Task_2"/>
+    <addaction name="actionAdd_Task"/>
     <addaction name="actionRemove_Task"/>
+    <addaction name="separator"/>
     <addaction name="actionMark_Finished"/>
    </widget>
    <addaction name="menuFile"/>
@@ -207,16 +214,6 @@
     <string>Exit</string>
    </property>
   </action>
-  <action name="actionAdd_Task">
-   <property name="text">
-    <string>Add Task</string>
-   </property>
-  </action>
-  <action name="actionAdd_Task_2">
-   <property name="text">
-    <string>Add Task</string>
-   </property>
-  </action>
   <action name="actionRemove_Task">
    <property name="text">
     <string>Remove Task</string>
@@ -225,6 +222,11 @@
   <action name="actionMark_Finished">
    <property name="text">
     <string>Mark Finished</string>
+   </property>
+  </action>
+  <action name="actionAdd_Task">
+   <property name="text">
+    <string>Add Task</string>
    </property>
   </action>
  </widget>
